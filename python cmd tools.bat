@@ -1,14 +1,15 @@
 @echo off
 color 0a
 :start
-echo welcome to python cmd tools, choose one
+echo welcome to python cmd tools, made by thijke#1234 // github.com/thijke
+echo choose one
 SET /P M="1 = python module installer, 2 = python module uninstaller and 3 = python file to exe. Choose a option: "
 IF %M%==1 GOTO moduleinstaller
 IF %M%==2 GOTO moduleuninstaller
 IF %M%==3 GOTO pytoexestart
 
 cls
-echo u didnt choose one right..
+echo u didnt choose one...
 echo try again
 timeout /t 3 > nul
 cls
